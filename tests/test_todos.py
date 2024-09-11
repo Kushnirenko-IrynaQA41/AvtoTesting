@@ -1,5 +1,4 @@
-import re
-from playwright.sync_api import Playwright, sync_playwright, expect
+from playwright.sync_api import sync_playwright, expect
 
 
 # Створення нового завдання
@@ -35,6 +34,9 @@ def test_todos2():
         page.get_by_placeholder("What needs to be done?").press("Enter")
         page.get_by_placeholder("What needs to be done?").fill("3")
         page.get_by_placeholder("What needs to be done?").press("Enter")
+        page.get_by_text("1").dblclick()  # Двічі клікни на завданні для його редагування
+        page.get_by_role("textbox", name="Edit").fill("3")  # Тепер можна редагувати
+
         page.get_by_text("1").click()
         page.get_by_role("textbox", name="Edit").fill("3")
 
@@ -56,7 +58,7 @@ def test_todos3():
         page.get_by_placeholder("What needs to be done?").press("Enter")
         page.get_by_placeholder("What needs to be done?").fill("3")
         page.get_by_placeholder("What needs to be done?").press("Enter")
-        page.get_by_role("button", name="Delete").click()
+        page.locator('clear-completed').click()
 
         # Закриваємо браузер
         browser.close()
@@ -124,7 +126,7 @@ def test_todos5():
         # Закриваємо браузер
         browser.close()
 
-# Видалення виконаних завдань (тут мені дпопоміг GPT)
+# Видалення виконаних завдань (тут мені допопоміг GPT)
 def test_todos6():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -194,3 +196,5 @@ def test_todos8():
 
         # Закриваємо браузер
         browser.close()
+
+

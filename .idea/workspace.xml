@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c2c6e9-93fa-4c35-a201-26544d21f1b6" name="Changes" comment="add test_lesson.py">
-      <change afterPath="$PROJECT_DIR$/tests/todos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalTests/test_zara_negativ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_web_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_lesson.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_lesson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/todos.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_todos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,12 @@
     "Python tests.Python tests for test_lesson.test_sqrt.executor": "Run",
     "Python tests.Python tests for test_lesson.testequality.executor": "Run",
     "Python tests.Python tests for test_lesson.testsquare.executor": "Run",
+    "Python tests.Python tests for test_perevirka.test_open_page.executor": "Run",
+    "Python tests.Python tests for test_todos.test_todos.executor": "Run",
+    "Python tests.Python tests for test_todos.test_todos3.executor": "Run",
+    "Python tests.Python tests for test_web_page (1).test_web_shop.executor": "Run",
+    "Python tests.Python tests for test_web_page.test_lucas.executor": "Run",
+    "Python tests.Python tests for test_web_page.test_web_shop.executor": "Run",
     "Python tests.Python tests for test_zarabuy.test_run.executor": "Run",
     "Python tests.Python tests for todos.test_para.executor": "Run",
     "Python tests.Python tests for todos.test_todos.executor": "Run",
@@ -48,29 +56,42 @@
     "Python tests.Python tests for todos.test_todos4.executor": "Run",
     "Python tests.Python tests for todos.test_todos5.executor": "Run",
     "Python tests.Python tests for todos.test_todos6.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_clear_completed_tasks.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_create_tasks.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_delete_task.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_filter_tasks.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_save_state_after_refresh.executor": "Run",
+    "Python tests.Python tests for todos_metod.test_toggle_tasks.executor": "Run",
+    "Python tests.Python tests in test_todos.py.executor": "Run",
     "Python tests.Python tests in test_zarabuy.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for todos.test_todos6">
-    <configuration name="Python tests for todos.test_todos2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_perevirka.test_open_page">
+    <configuration name="Python tests for test_perevirka.test_open_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos.test_todos2&quot;" />
+      <option name="_new_target" value="&quot;test_perevirka.test_open_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for todos.test_todos3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_todos.test_todos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,11 +102,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos.test_todos3&quot;" />
+      <option name="_new_target" value="&quot;test_todos.test_todos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for todos.test_todos4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_web_page.test_lucas" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,11 +117,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos.test_todos4&quot;" />
+      <option name="_new_target" value="&quot;test_web_page.test_lucas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for todos.test_todos5" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_web_page.test_web_shop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,32 +132,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos.test_todos5&quot;" />
+      <option name="_new_target" value="&quot;test_web_page.test_web_shop&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for todos.test_todos6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for todos_metod.test_save_state_after_refresh" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos.test_todos6&quot;" />
+      <option name="_new_target" value="&quot;todos_metod.test_save_state_after_refresh&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for todos.test_todos6" />
-        <item itemvalue="Python tests.Python tests for todos.test_todos5" />
-        <item itemvalue="Python tests.Python tests for todos.test_todos4" />
-        <item itemvalue="Python tests.Python tests for todos.test_todos3" />
-        <item itemvalue="Python tests.Python tests for todos.test_todos2" />
+        <item itemvalue="Python tests.Python tests for test_perevirka.test_open_page" />
+        <item itemvalue="Python tests.Python tests for test_web_page.test_web_shop" />
+        <item itemvalue="Python tests.Python tests for test_web_page.test_lucas" />
+        <item itemvalue="Python tests.Python tests for test_todos.test_todos" />
+        <item itemvalue="Python tests.Python tests for todos_metod.test_save_state_after_refresh" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724176188589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add test_lesson.py">
+      <option name="closed" value="true" />
+      <created>1724913717798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724913717799</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add test_lesson.py">
+      <option name="closed" value="true" />
+      <created>1725955567977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725955567978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
