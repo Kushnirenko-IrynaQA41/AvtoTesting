@@ -14,11 +14,7 @@ def test_run(playwright: Playwright) -> None:
     page.get_by_placeholder("Пошук за товаром, кольором, колекцією").click()
     page.get_by_placeholder("Пошук за товаром, кольором, колекцією").fill("ljjjdkkskskallala")
     page.get_by_placeholder("Пошук за товаром, кольором, колекцією").press("Enter")
-
+    expect(page.locator("text=Пошук не дав результатів")).to_be_visible()
     # ---------------------
     context.close()
     browser.close()
-
-
-with sync_playwright() as playwright:
-    test_run(playwright)

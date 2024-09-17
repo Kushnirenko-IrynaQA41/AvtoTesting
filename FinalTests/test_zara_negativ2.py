@@ -18,7 +18,3 @@ def test_invalid_url(playwright: Playwright) -> None:
     # Закриття контексту і браузера
     context.close()
     browser.close()
-
-
-with sync_playwright() as playwright:
-    test_invalid_url(playwright)

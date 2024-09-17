@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16c2c6e9-93fa-4c35-a201-26544d21f1b6" name="Changes" comment="add test_lesson.py">
-      <change afterPath="$PROJECT_DIR$/FinalTests/test_zara_negativ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_web_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalTests/test_zara.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalTests/zara_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/todos.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_todos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalTests/test_E2E.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalTests/test_E2E.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalTests/test_zara_negativ.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalTests/test_zara_negativ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalTests/test_zara_negativ2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinalTests/test_zara_negativ2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +39,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_E2E.test_run.executor": "Run",
     "Python tests.Python tests for test_lesson.test_para.executor": "Run",
     "Python tests.Python tests for test_lesson.test_sqrt.executor": "Run",
     "Python tests.Python tests for test_lesson.testequality.executor": "Run",
     "Python tests.Python tests for test_lesson.testsquare.executor": "Run",
+    "Python tests.Python tests for test_metod.test_run.executor": "Run",
+    "Python tests.Python tests for test_metod.test_zara_shopping.executor": "Run",
     "Python tests.Python tests for test_perevirka.test_open_page.executor": "Run",
     "Python tests.Python tests for test_todos.test_todos.executor": "Run",
     "Python tests.Python tests for test_todos.test_todos3.executor": "Run",
     "Python tests.Python tests for test_web_page (1).test_web_shop.executor": "Run",
     "Python tests.Python tests for test_web_page.test_lucas.executor": "Run",
     "Python tests.Python tests for test_web_page.test_web_shop.executor": "Run",
+    "Python tests.Python tests for test_zara.test_run.executor": "Run",
+    "Python tests.Python tests for test_zara_negativ.test_run.executor": "Run",
+    "Python tests.Python tests for test_zara_negativ2.test_invalid_url.executor": "Run",
     "Python tests.Python tests for test_zarabuy.test_run.executor": "Run",
     "Python tests.Python tests for todos.test_para.executor": "Run",
     "Python tests.Python tests for todos.test_todos.executor": "Run",
@@ -62,6 +69,7 @@
     "Python tests.Python tests for todos_metod.test_filter_tasks.executor": "Run",
     "Python tests.Python tests for todos_metod.test_save_state_after_refresh.executor": "Run",
     "Python tests.Python tests for todos_metod.test_toggle_tasks.executor": "Run",
+    "Python tests.Python tests in test_metod.py.executor": "Run",
     "Python tests.Python tests in test_todos.py.executor": "Run",
     "Python tests.Python tests in test_zarabuy.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,12 +79,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/FinalTests" />
       <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_perevirka.test_open_page">
-    <configuration name="Python tests for test_perevirka.test_open_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_zara.test_run">
+    <configuration name="Python tests for models.zara_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,77 +96,92 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_perevirka.test_open_page&quot;" />
+      <option name="_new_target" value="&quot;models.zara_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_todos.test_todos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_E2E.test_run" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_todos.test_todos&quot;" />
+      <option name="_new_target" value="&quot;test_E2E.test_run&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_web_page.test_lucas" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_zara_negativ2.test_invalid_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_web_page.test_lucas&quot;" />
+      <option name="_new_target" value="&quot;test_zara_negativ2.test_invalid_url&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_web_page.test_web_shop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_zara_negativ.test_run" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_web_page.test_web_shop&quot;" />
+      <option name="_new_target" value="&quot;test_zara_negativ.test_run&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for todos_metod.test_save_state_after_refresh" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_zara.test_run" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;todos_metod.test_save_state_after_refresh&quot;" />
+      <option name="_new_target" value="&quot;test_zara.test_run&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in zara_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/FinalTests/zara_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_perevirka.test_open_page" />
-        <item itemvalue="Python tests.Python tests for test_web_page.test_web_shop" />
-        <item itemvalue="Python tests.Python tests for test_web_page.test_lucas" />
-        <item itemvalue="Python tests.Python tests for test_todos.test_todos" />
-        <item itemvalue="Python tests.Python tests for todos_metod.test_save_state_after_refresh" />
+        <item itemvalue="Python tests.Python tests for test_zara.test_run" />
+        <item itemvalue="Python tests.Python tests for test_E2E.test_run" />
+        <item itemvalue="Python tests.Python tests for test_zara_negativ2.test_invalid_url" />
+        <item itemvalue="Python tests.Python tests for test_zara_negativ.test_run" />
+        <item itemvalue="Python tests.Python tests for models.zara_test" />
       </list>
     </recent_temporary>
   </component>
